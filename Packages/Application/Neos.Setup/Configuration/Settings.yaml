@@ -1,0 +1,32 @@
+Neos:
+  Setup:
+    healthchecks:
+      compiletime:
+        basicRequirements:
+          position: 'start 200'
+          className: Neos\Setup\Infrastructure\Healthcheck\BasicRequirementsHealthcheck
+        database:
+          position: 'start 100'
+          className: Neos\Setup\Infrastructure\Healthcheck\DatabaseHealthcheck
+
+      runtime:
+        routing:
+          position: 'start 200'
+          className: Neos\Setup\Infrastructure\Healthcheck\EndToEndHealthcheck
+        doctrine:
+          position: 'start 100'
+          className: Neos\Setup\Infrastructure\Healthcheck\DoctrineHealthcheck
+
+    #
+    # The database drivers that are supported by migrations
+    #
+    supportedDatabaseDrivers:
+      'pdo_mysql': 'MySQL/MariaDB via PDO'
+      'mysqli': 'MySQL/MariaDB via mysqli'
+      'pdo_pgsql': 'PostgreSQL via PDO'
+
+  Flow:
+    mvc:
+      routes:
+        'Neos.Setup':
+          position: start 9000

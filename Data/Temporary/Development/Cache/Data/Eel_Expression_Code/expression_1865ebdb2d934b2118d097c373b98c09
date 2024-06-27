@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('I18n')->callAndWrap('translate', array('cards.authorPublishedBy','Published by {authorName}',$context->wrap(array())->push($context->getAndWrap('props')->getAndWrap('authorName'),'authorName'),'Presentation.Cards:cards','Neos.Demo'));};

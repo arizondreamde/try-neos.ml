@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Date')->callAndWrap('format', array($context->callAndWrap('q', array($context->getAndWrap('node')))->callAndWrap('property', array('datePublished')),'Y-m-d'));};

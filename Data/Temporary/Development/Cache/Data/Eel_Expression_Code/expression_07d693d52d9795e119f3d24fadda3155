@@ -1,0 +1,1 @@
+return static function ($context) {return $context->callAndWrap('q', array($context->getAndWrap('documentNode')))->callAndWrap('property', array('_contextPath'));};

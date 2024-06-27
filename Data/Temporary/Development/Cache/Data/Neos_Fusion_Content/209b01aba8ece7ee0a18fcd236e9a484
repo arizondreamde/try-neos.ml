@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html><html>
+<!--
+This website is powered by Neos, the Open Source Content Application Platform licensed under the GNU/GPL.
+Neos is based on Flow, a powerful PHP application framework licensed under the MIT license.
+
+More information and contribution opportunities at https://www.neos.io
+-->
+<head><meta charset="UTF-8" />CONTENT_CACHEa59530fb98f30c4948bce238eb0cada1CONTENT_CACHE
+    <script>window.neos = window.parent.neos;</script>
+    <link rel="stylesheet" href="https://try-neos.ml/_Resources/Static/Packages/Neos.Neos.Ui.Compiled/Build/Host.css">
+<style>#neos-shortcut {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #323232;z-index: 9999;font-family: "Noto Sans", sans-serif;-webkit-font-smoothing: antialiased;}#neos-shortcut p {position: relative;margin: 0 auto;width: 500px;height: 60px;top: 50%;margin-top: -30px;color: #fff;font-size: 22px;line-height: 1.4;text-align: center;}#neos-shortcut p a {color: #00b5ff;text-decoration: none;}#neos-shortcut p a:hover {color: #39c6ff;}</style><title>Home - Neos Demo Site</title><meta name="robots" content="noindex,follow" /><link rel="alternate" hreflang="x-default" href="https://try-neos.ml/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_US" /><link rel="alternate" hreflang="en-US" href="https://try-neos.ml/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_US" /><link rel="alternate" hreflang="en-UK" href="https://try-neos.ml/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_UK%2Cen_US" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Home" /><meta name="twitter:url" content="https://try-neos.ml/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_US" /><meta property="og:type" content="website" /><meta property="og:title" content="Home" /><meta property="og:site_name" content="Home" /><meta property="og:url" content="https://try-neos.ml/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_US" /><script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/try-neos.ml\/neos\/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%40user-sed%3Blanguage%3Den_US"},{"@type":"ListItem","position":2,"name":"Home","item":"https:\/\/try-neos.ml\/neos\/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%2Fhome%40user-sed%3Blanguage%3Den_US"}]}</script></head><body class="neos-backend">
+<div id="neos-shortcut">
+	<p>
+		
+				This is a shortcut to the parent page.<br />Click <a href="/neos/preview?node%5B__contextNodePath%5D=%2Fsites%2Fneosdemo%40user-sed%3Blanguage%3Den_US">Home</a> to continue to the page.
+			
+	</p>
+</div>
+<script data-neos-node="/sites/neosdemo/home@user-sed;language=en_US" src="https://try-neos.ml/_Resources/Static/Packages/Neos.Neos/JavaScript/LastVisitedNode.js" async></script><div id="neos-backend-container"></div><script type="application/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        var event = new CustomEvent("Neos.Neos.Ui.ContentReady");
+        window.parent.document.dispatchEvent(event);
+    });
+</script>
+</body></html>Node_%502302cecd74e7f7c06886fb7907dc46%_e35d8910-9798-4c30-8759-b3b88d30f8b50             3430      

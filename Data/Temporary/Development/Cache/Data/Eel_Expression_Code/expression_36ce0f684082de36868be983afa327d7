@@ -1,0 +1,1 @@
+return static function ($context) {return (($_0=(($_1=$context->getAndWrap('props')->getAndWrap('class')) instanceof \Neos\Eel\Context?$_1->unwrap():$_1))?$_0:(($_2=$context->getAndWrap('props')->getAndWrap('_class')) instanceof \Neos\Eel\Context?$_2->unwrap():$_2));};

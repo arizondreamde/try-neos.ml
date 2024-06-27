@@ -1,0 +1,1 @@
+return static function ($context) {return (!(($_0=$context->getAndWrap('iterator')->getAndWrap('isFirst')) instanceof \Neos\Eel\Context?$_0->unwrap():$_0));};

@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Translation')->callAndWrap('translate', array('navigation.open','Open menu',$context->wrap(array()),$context->getAndWrap('null'),'Neos.Demo'));};

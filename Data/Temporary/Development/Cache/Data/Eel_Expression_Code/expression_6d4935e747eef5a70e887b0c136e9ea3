@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Configuration')->callAndWrap('Setting', array('Neos.ContentRepository.contentDimensions.language.presets'));};

@@ -1,0 +1,8 @@
+prototype(Neos.Fusion:Renderer) {
+  @class = 'Neos\\Fusion\\FusionObjects\\RendererImplementation'
+  renderer = null
+  renderPath = null
+  type = null
+  element {
+  }
+}

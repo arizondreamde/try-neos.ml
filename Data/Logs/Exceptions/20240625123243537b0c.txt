@@ -1,0 +1,39 @@
+Exception #1355480641 in line 669 of /var/www/neos/Packages/Framework/Neos.Flow/Classes/Core/Booting/Scripts.php: An exception occurred in driver: SQLSTATE[HY000] [1698] Access denied for user ''@'localhost'
+
+  Type: Doctrine\DBAL\Exception\DriverException
+  File: Packages/Libraries/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriv
+        er.php
+  Line: 128
+
+Nested exception:
+SQLSTATE[HY000] [1698] Access denied for user ''@'localhost'
+
+  Type: Doctrine\DBAL\Driver\PDO\Exception
+  Code: 1698
+  File: Packages/Libraries/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Exception.php
+  Line: 18
+
+Nested exception:
+SQLSTATE[HY000] [1698] Access denied for user ''@'localhost'
+
+  Type: PDOException
+  Code: 1698
+  File: Packages/Libraries/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php
+  Line: 40
+
+14 Neos\Flow\Core\Booting\Scripts::executeCommand()
+13 Neos\Flow\Core\Booting\Scripts::compileDoctrineProxies()
+12 Neos\Flow\Core\Booting\Scripts::initializeProxyClasses()
+11 call_user_func()
+10 Neos\Flow\Core\Booting\Step::__invoke()
+9 Neos\Flow\Core\Booting\Sequence::invokeStep()
+8 Neos\Flow\Core\Booting\Sequence::invokeStep()
+7 Neos\Flow\Core\Booting\Sequence::invokeStep()
+6 Neos\Flow\Core\Booting\Sequence::invokeStep()
+5 Neos\Flow\Core\Booting\Sequence::invoke()
+4 Neos\Flow\Cli\CommandRequestHandler::boot()
+3 Neos\Flow\Cli\CommandRequestHandler::handleRequest()
+2 Neos\Flow\Core\Bootstrap::run()
+1 require("/var/www/neos/Packages/Framework/Neos.Flow/Scripts/flow.php")
+
+

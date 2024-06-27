@@ -1,0 +1,1 @@
+return static function ($context) {return (($_0=(($_1=$context->getAndWrap('this')->getAndWrap('src')) instanceof \Neos\Eel\Context?$_1->unwrap():$_1))?$_0:(($_2=$context->getAndWrap('this')->getAndWrap('renderDummyImage')) instanceof \Neos\Eel\Context?$_2->unwrap():$_2));};

@@ -1,0 +1,17 @@
+{
+    "name": "neos/neos-setup",
+    "type": "neos-package",
+    "license": "GPL-3.0-or-later",
+    "description": "Custom neos/setup steps and configuration for Neos CMS",
+    "require": {
+        "php": "^8.0",
+        "neos/setup": "^6.0 || dev-master",
+        "neos/neos": "^8.0",
+        "neos/imagine": "^3.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neos\\Neos\\Setup\\": "Classes"
+        }
+    }
+}

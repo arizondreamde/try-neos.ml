@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('String')->callAndWrap('htmlspecialchars', array((($_0=(($_1=$context->getAndWrap('field')->callAndWrap('getCurrentValueStringified', array())) instanceof \Neos\Eel\Context?$_1->unwrap():$_1))?$_0:(($_2=$context->getAndWrap('props')->getAndWrap('content')) instanceof \Neos\Eel\Context?$_2->unwrap():$_2))));};

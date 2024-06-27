@@ -1,0 +1,1 @@
+return static function ($context) {return ((($_0=$context->callAndWrap('q', array($context->getAndWrap('node')))->callAndWrap('property', array('startingPoint'))) instanceof \Neos\Eel\Context?$_0->unwrap():$_0)?($context->callAndWrap('q', array($context->getAndWrap('node')))->callAndWrap('property', array('startingPoint'))):($context->getAndWrap('documentNode')));};

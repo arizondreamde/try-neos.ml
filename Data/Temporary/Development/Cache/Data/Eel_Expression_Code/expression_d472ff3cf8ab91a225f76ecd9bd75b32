@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Neos')->getAndWrap('Caching')->callAndWrap('descendantOfTag', array($context->getAndWrap('node')));};

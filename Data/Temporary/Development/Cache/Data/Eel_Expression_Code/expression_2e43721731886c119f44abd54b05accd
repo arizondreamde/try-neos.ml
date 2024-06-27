@@ -1,0 +1,1 @@
+return static function ($context) {return $context->wrap(array())->push('mt-12 text-sm print:border-t print:border-slate-200/80')->push(((($_0=$context->getAndWrap('props')->getAndWrap('_hasMenuItems')) instanceof \Neos\Eel\Context?$_0->unwrap():$_0)?('border-t border-slate-200/80'):($context->getAndWrap('null'))));};

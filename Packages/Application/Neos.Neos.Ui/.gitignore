@@ -1,0 +1,50 @@
+#
+# Test suite & generated coverage.
+#
+Coverage/
+packages/*/dist/
+packages/*/.nyc_output/
+packages/*/coverage/
+Build/Selenium/Screenshots/*.png
+lcov.info
+
+#
+# Customized credentials for the Neos backend which the WebDriverIO runner uses.
+#
+Build/Selenium/Settings.yaml
+
+#
+# Application & development dependencies.
+#
+node_modules/
+packages/*/yarn.lock
+
+#
+# Compiled assets.
+#
+Resources/Public/Build/*
+!Resources/Public/Build/.gitkeep
+*.tsbuildinfo
+
+#
+# System Files
+#
+.DS_Store
+
+#
+# editors / IDEs
+#
+.vscode/
+.idea/
+*.iml
+
+#
+# Package Manager
+#
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

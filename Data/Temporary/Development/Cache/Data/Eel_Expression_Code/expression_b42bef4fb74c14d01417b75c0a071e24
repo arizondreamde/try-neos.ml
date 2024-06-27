@@ -1,0 +1,1 @@
+return static function ($context) {return $context->wrap(array())->push('prev')->push('next')->push('first')->push('last')->push('slideX')->push('pageX')->push('play')->push('pause')->push('carousel')->push('select')->push('slide')->push('slideLabel')->push('playVideo');};

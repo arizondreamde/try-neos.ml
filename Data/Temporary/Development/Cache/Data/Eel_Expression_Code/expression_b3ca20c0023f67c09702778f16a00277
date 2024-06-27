@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('I18n')->callAndWrap('translate', array((is_string($_x_2=(($_1='Neos.Demo:Main:splide.') instanceof \Neos\Eel\Context?$_1->unwrap():$_1))|is_string($_y_3=(($_0=$context->getAndWrap('item')) instanceof \Neos\Eel\Context?$_0->unwrap():$_0)))?($_x_2 . $_y_3):($_x_2+$_y_3)));};

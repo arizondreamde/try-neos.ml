@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Type')->callAndWrap('isArray', array($context->getAndWrap('props')->getAndWrap('menuItems')));};

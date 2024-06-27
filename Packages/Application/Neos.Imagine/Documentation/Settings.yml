@@ -1,0 +1,5 @@
+conf.py:
+  copyright: '2006-2022, respective authors'
+  project: 'Neos Imagine'
+  release: 'master'
+  version: 'master'

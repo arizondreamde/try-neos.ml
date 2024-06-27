@@ -1,0 +1,1 @@
+return static function ($context) {return $context->wrap(array())->push($context->getAndWrap('props')->getAndWrap('class'))->push('print:hidden');};

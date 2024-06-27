@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('I18n')->callAndWrap('translate', array('login.index.title','Login to'));};

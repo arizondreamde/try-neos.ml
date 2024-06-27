@@ -1,0 +1,1 @@
+return static function ($context) {return (is_string($_x_2=(($_1='block shadow-lg bg-white') instanceof \Neos\Eel\Context?$_1->unwrap():$_1))|is_string($_y_3=(($_0=$context->getAndWrap('props')->getAndWrap('class')) instanceof \Neos\Eel\Context?$_0->unwrap():$_0)))?($_x_2 . $_y_3):($_x_2+$_y_3);};

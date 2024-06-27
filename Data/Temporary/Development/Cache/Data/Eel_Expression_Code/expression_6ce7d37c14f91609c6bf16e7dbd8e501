@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Form')->getAndWrap('Schema')->callAndWrap('string', array())->callAndWrap('isRequired', array())->callAndWrap('validator', array('Neos\Demo\Form\Runtime\Validation\Validator\UsernameInUseValidator'));};

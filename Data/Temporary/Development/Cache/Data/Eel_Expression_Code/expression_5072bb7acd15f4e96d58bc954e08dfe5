@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Array')->callAndWrap('concat', array($context->getAndWrap('this')->getAndWrap('currentItem'),$context->getAndWrap('value')));};

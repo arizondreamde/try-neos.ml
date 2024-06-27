@@ -1,0 +1,1 @@
+return static function ($context) {return $context->wrap(array())->push('overflow-hidden bg-dark flex flex-col print:bg-transparent print:m-0 print:py-20')->push(((($_0=$context->getAndWrap('props')->getAndWrap('heroImage')) instanceof \Neos\Eel\Context?$_0->unwrap():$_0)?('bg-cover bg-center -mt-[var(--header-height)] h-screen print:h-auto print:!bg-none'):('pt-20 pb-32')));};

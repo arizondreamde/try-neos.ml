@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Json')->callAndWrap('stringify', array($context->getAndWrap('Array')->callAndWrap('concat', array($context->wrap(array())->push($context->getAndWrap('props')->getAndWrap('i18n'),'i18n'),$context->getAndWrap('props')->getAndWrap('options')))));};

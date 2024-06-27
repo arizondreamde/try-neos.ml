@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+
+<!DOCTYPE html><html lang="en-US" data-debug>
+<!--
+This website is powered by Neos, the Open Source Content Application Platform licensed under the GNU/GPL.
+Neos is based on Flow, a powerful PHP application framework licensed under the MIT license.
+
+More information and contribution opportunities at https://www.neos.io
+-->
+<head><meta charset="UTF-8" /><link rel="stylesheet" href="http://127.0.0.1/_Resources/Static/Packages/Neos.Demo/Styles/Main.css" /><script defer src="http://127.0.0.1/_Resources/Static/Packages/Neos.Demo/Scripts/Main.js"></script>CONTENT_CACHE10d52b8c2272cc117031e638fad3a6a2CONTENT_CACHE<title>Not Found - Neos Demo Site</title><meta name="robots" content="noindex,follow" /><link rel="alternate" hreflang="x-default" href="http://127.0.0.1/en/notfound" /><link rel="alternate" hreflang="en-US" href="http://127.0.0.1/en/notfound" /><link rel="alternate" hreflang="en-UK" href="http://127.0.0.1/uk/notfound" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Not Found" /><meta name="twitter:url" content="http://127.0.0.1/en/notfound" /><meta property="og:type" content="website" /><meta property="og:title" content="Not Found" /><meta property="og:site_name" content="Home" /><meta property="og:locale" content="en-US" /><meta property="og:url" content="http://127.0.0.1/en/notfound" /><script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"http:\/\/127.0.0.1\/"},{"@type":"ListItem","position":2,"name":"Not Found","item":"http:\/\/127.0.0.1\/en\/notfound"}]}</script><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body class>CONTENT_CACHE1b5042f28bcdcc1fd11af9a4634f7a93CONTENT_CACHECONTENT_CACHEc97e88d30706874402e1f551119c3f09CONTENT_CACHE<main class="content prose">CONTENT_CACHEc5f741fc32dc2272d808981a1e10d1f1CONTENT_CACHE</main>CONTENT_CACHE957920503906430d41576c255bdce867CONTENT_CACHE<script data-neos-node="/sites/neosdemo/notfound@live;language=en_US" src="http://127.0.0.1/_Resources/Static/Packages/Neos.Neos/JavaScript/LastVisitedNode.js" async></script></body></html>Node_%d0dbe915091d400bd8ee7f27f0791303%_f6cebea5-fbef-5afc-ea0e-9e90f262499b0             2252      

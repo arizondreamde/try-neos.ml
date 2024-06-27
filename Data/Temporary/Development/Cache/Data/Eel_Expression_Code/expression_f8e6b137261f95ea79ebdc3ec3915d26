@@ -1,0 +1,1 @@
+return static function ($context) {return $context->getAndWrap('Translation')->callAndWrap('id', array('forms.navigation.submit'))->callAndWrap('package', array('Neos.Fusion.Form'))->callAndWrap('translate', array());};
